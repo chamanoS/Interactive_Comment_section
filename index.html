@@ -9,8 +9,125 @@
 </head>
 <body>
 
-  <div>
-    <h1>Interactive Comment Section !</h1>
+  <div id="root">
+
+    <section id="comments" class="comments-wrapper">
+
+      <div class="parent-comment-card">
+        <div class="comment-card">
+          <div class="comment-head">
+            <img src="./images/avatars/image-amyrobson.png" alt="">
+            <h3>amyrobson</h3>
+            <h4>1month ago</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Non itaque molestias neque quibusdam, tempore natus beatae 
+            ex quam voluptatibus asperiores magnam perferendis maiores 
+            doloribus ut voluptates debitis cupiditate at tempora?
+          </p>
+          <div class="comment-footer">
+            <div class="comment-expand">
+              <span><img src="./images/icon-plus.svg" alt=""></span>
+              <span>12</span>
+              <span><img src="./images/icon-plus.svg" alt=""></span>
+            </div>
+            <div class="comment-reply">
+              <span><img src="./images/icon-reply.svg" alt="">Reply</span>
+            </div>
+          </div>
+        </div>
+  
+        <div class="comment-card">
+          <div class="comment-head">
+            <img src="./images/avatars/image-juliusomo.png" alt="">
+            <h3>juliusomo</h3>
+            <h4>2 weeks ago</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Non itaque molestias neque quibusdam, tempore natus beatae 
+            ex quam voluptatibus asperiores magnam perferendis maiores 
+            doloribus ut voluptates debitis cupiditate at tempora?
+          </p>
+          <div class="comment-footer">
+            <div class="comment-expand">
+              <span><img src="./images/icon-plus.svg" alt=""></span>
+              <span>5</span>
+              <span><img src="./images/icon-plus.svg" alt=""></span>
+            </div>
+            <div class="comment-reply">
+              <span><img src="./images/icon-reply.svg" alt="">Reply</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="parent-reply-comment-card">
+        <div class="comment-card">
+          <div class="comment-head">
+            <img src="./images/avatars/image-amyrobson.png" alt="">
+            <h3>amyrobson</h3>
+            <h4>1month ago</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Non itaque molestias neque quibusdam, tempore natus beatae 
+            ex quam voluptatibus asperiores magnam perferendis maiores 
+            doloribus ut voluptates debitis cupiditate at tempora?
+          </p>
+          <div class="comment-footer">
+            <div class="comment-expand">
+              <span><img src="./images/icon-plus.svg" alt=""></span>
+              <span>12</span>
+              <span><img src="./images/icon-plus.svg" alt=""></span>
+            </div>
+            <div class="comment-reply">
+              <span><img src="./images/icon-reply.svg" alt="">Reply</span>
+            </div>
+          </div>
+        </div>
+  
+        <div class="comment-card">
+          <div class="comment-head">
+            <img src="./images/avatars/image-maxblagun.png" alt="">
+            <h3>maxblagun</h3>
+            <h4>2 days ago</h4>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Non itaque molestias neque quibusdam, tempore natus beatae 
+            ex quam voluptatibus asperiores magnam perferendis maiores 
+            doloribus ut voluptates debitis cupiditate at tempora?
+          </p>
+          <div class="comment-footer">
+            <div class="comment-expand">
+              <span><img src="./images/icon-plus.svg" alt=""></span>
+              <span>5</span>
+              <span><img src="./images/icon-plus.svg" alt=""></span>
+            </div>
+            <div class="comment-reply">
+              <span><img src="./images/icon-delete.svg" alt="">Delete</span>
+              <span><img src="./images/icon-edit.svg" alt="">Edit</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="adding-cmnt">
+        <input type="textarea">
+        <div class="add-rply">
+          <span><img src="./images/avatars/image-maxblagun.png" alt=""></span>
+          <button class="comment-btn">SEND</button>
+        </div>
+
+      </div>
+
+  
+      
+
+    </section>
+
+    <section class="add-comment" id="send-reply">
+
+    </section>
+
   </div>
 
 </body>
