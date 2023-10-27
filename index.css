@@ -8,7 +8,7 @@
 .parent-comment-card {
     margin: 8px;
 }
-span{
+span,button{
     cursor: pointer;
 }
 .comment-card {
@@ -48,6 +48,12 @@ span{
 }
 .comment-reply img {
     padding: 0 5px;
+}
+.minus{
+position: absolute;
+top: 195px;
+/* padding:0 2px;
+margin-right: 5px; */
 }
 .parent-reply-comment-card{
     border-left: 1px solid hsl(238, 40%, 52%);
