@@ -1,50 +1,106 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
-.parent-comment-card{
-border-left: 1px solid   hsl(238, 40%, 52%);
-margin: 10px;
-padding: 10px;
+.parent-comment-card {
+    margin: 8px;
 }
-.comment-card{
-    box-shadow: 0 1px 15px rgba(0,0,0,.2);
+span{
+    cursor: pointer;
+}
+.comment-card {
+    box-shadow: 0 1px 15px rgba(0, 0, 0, .2);
     padding: 10px;
     margin: 10px;
     border-radius: 3px;
 }
-.comment-head{
-display: flex;
-align-items: center;
-padding: 10px;
-margin-bottom: 12px;
+.comment-head {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 12px;
 }
-.comment-head h3{
+.comment-head h3 {
     margin: 0 10px;
     font-size: 15px;
 }
-.comment-card p{
-padding: 0 10px;
+.comment-card p {
+    padding: 0 10px;
 }
-.comment-footer{
+.comment-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 12px;
 }
-.comment-expand{
+.comment-expand {
     border: 1px solid rgba(224, 255, 255, 0.459);
-    background-color:  hsla(240, 38%, 91%, 0.178);
+    background-color: hsla(240, 38%, 91%, 0.178);
     padding: 4px 12px;
     border-radius: 4px;
     cursor: pointer;
 }
-.comment-expand span{
-padding: 0 3px;
+.comment-expand span {
+    padding: 0 3px;
 }
-.comment-reply img{
+.comment-reply img {
     padding: 0 5px;
+}
+.parent-reply-comment-card{
+    border-left: 1px solid hsl(238, 40%, 52%);
+    padding-left:10px ;
+    padding-right: 8px;
+    margin-left: 20px;
+}
+.parent-reply-comment-card p{
+    font-size: 14px;
+}
+.color-red{
+    color: red;
+    font-weight: 500;
+}
+.color-blue{
+    color: hsl(238, 40%, 52%);
+    font-weight: 500;
+}
+.adding-cmnt{
+    box-shadow: 0 1px 15px rgba(0, 0, 0, .2);
+    margin: 20px;
+    padding: 17px;
+    border-radius: 4px;
+}
+.adding-cmnt input{
+    height: 100px;
+    width: 100%;
+    border: 1px solid hsla(238, 40%, 52%, 0.075);
+    border-radius: 4px;
+}
+.adding-cmnt input::placeholder {
+    padding: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.315);
+    font-weight: 600;
+    position: absolute;
+    top: -1px!important;
+}
+.add-rply {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+.add-rply img{
+    width: 45px;
+    height: 45px;
+}
+.add-rply button{
+    padding: 5px 15px;
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 3px;
 }
